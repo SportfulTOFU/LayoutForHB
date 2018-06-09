@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "concurrently": "^3.5.1",
+    "easymysql": "^0.2.7",
+    "events": "^2.0.0",
+    "jquery": "^3.3.1",
+    "mysql": "^2.15.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-native": "^0.54.2",
+    "react-router": "^3.2.0",
+    "react-scripts": "1.1.1",
+    "url": "^0.11.0",
+    "yarn": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

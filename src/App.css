@@ -1,0 +1,115 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
+.nav-btn{/*导航条按钮*/
+  position:absolute;
+  background-repeat:no-repeat; 
+  background-size:100% 100%;
+  height: 40%;
+  width: 12%;
+  border:none;
+  border-radius:15px 15px 0 0;/*圆角操作*/
+  bottom: 6%;
+  cursor: pointer;/*手指操作*/
+  outline:none;/*去除点击后的边框*/
+}
+.page-btn{/*页面按钮*/
+  position: relative;
+  text-align: center;
+   cursor: pointer;/*手指操作*/
+  bottom: 26%;
+ /* background-image: url(./datas/分解图/2/13.png);*/
+}
+.page-nav-btn{
+  position: relative;
+  text-align: center
+}
+.mainbody{
+    position:relative;
+    background-image: url(./datas/分解图/2/06.png);
+    background-size:100% 100%;
+    width:100%;
+height:auto;
+}
+.copright-p{
+    position: relative;
+    font-size: 15px;
+    left:3%;
+    bottom: 27%;
+}
+.panel-panel{
+   position:relative;
+   margin-bottom: 0%;
+   text-align: center;
+   height: 30%;
+   width:18%;
+   margin-left: 6%;
+   margin-top: 3%;
+   background: rgba(0, 0, 0, 0);
+}
+.panel-h{
+   position:relative;
+   background-image: url(./datas/分解图/2/13.png);
+   overflow: hidden;
+   width: 100%;
+   text-align: center;
+   background-size:100% 100%;
+}
+.panel-b{
+   position:relative;
+   background-image: url(./datas/分解图/2/12.png);
+   background-size:100% 100%;
+   height: 85%;
+   width: 100%;
+   margin: 0%;
+}
+.panel-img{
+  position:relative;
+  margin:0 auto; 
+  text-align: center;
+  height: 100%;
+  width: 90%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#nav-btn-topic{/*专题展示按钮*/
+  margin-left:70%;
+}
+#nav-btn-area{/*区域概览按钮*/
+  margin-left:83%;
+}
+#navigator{/*导航条*/
+  position:relative;
+  background-image: url(./datas/分解图/2/01.png);
+  background-size:100% 100%;
+  height: 13%;
+}
+.h50{
+  height: 50%;
+}

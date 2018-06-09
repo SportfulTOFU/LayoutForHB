@@ -1,0 +1,52 @@
+
+.area-main{
+	position: relative;
+    height: 100%;
+    
+}
+.panel-area{
+	position: relative;
+	margin-top: 7%;
+    width: 90%;
+	height: 100%;
+	margin-left: 5%;
+
+
+}
+.panel-area-body{
+	position: relative;
+    overflow: hidden;
+	width: 100%;
+    height: 100%;
+	
+
+}
+.panel-area-image{
+	position: relative;
+	width: 100%;
+    height: 100%;
+}
+.area-text{
+	height: 100%;
+
+}
+.area-text-panel{
+	background-image: url(./datas/分解图/5/06.png);
+position: absolute;
+margin-top: 14%;
+width: 80%;
+
+height: 67%;
+}
+.area-text-panel-body{
+	border:1px solid white;
+	margin-top: 5%;
+	
+	margin-left: 5%;
+	height: 90%;
+	width: 90%;
+ overflow: scroll;
+  overflow-x: hidden;
+  text-indent: 2em;
+	background-image: url(./datas/分解图/5/06.png);
+}
